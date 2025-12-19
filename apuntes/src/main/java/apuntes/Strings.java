@@ -20,7 +20,7 @@ public class Strings {
         String c1 = "Hola";
         String c2 = "hola";
 
-        System.out.println(c1.equals(c2)); // false
+        System.out.println(c1.equals(c2));                  // false
         System.out.println(c1.equalsIgnoreCase(c2)); // true
         System.out.println(c1 == c2); // false (diferente referencia)
         System.out.println(c1.compareTo(c2)); // valor negativo porque "H" < "h"
@@ -28,7 +28,7 @@ public class Strings {
         // 4. Búsqueda y verificación
         String d = "Hola Mundo";
 
-        System.out.println(d.contains("Mundo")); // true
+        System.out.println(d.contains("Mundo"));        // true
         System.out.println(d.startsWith("Hola")); // true
         System.out.println(d.endsWith("do")); // true
         System.out.println(d.indexOf("a")); // 3

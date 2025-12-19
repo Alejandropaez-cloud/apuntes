@@ -1,4 +1,4 @@
-package modelo;
+package apuntes;
 
 import java.time.LocalDate;
 
@@ -68,7 +68,8 @@ public class Animal {
                 ", está: " + estadoAnimal;
     }
 
-    public Animal(Animal origen) {// Constructor copia
+    // Constructor copia
+    public Animal(Animal origen) {
         this.nombreAnimal = origen.nombreAnimal;
         this.fechaNacimientoAnimal = origen.fechaNacimientoAnimal;
         this.tipoAnimal = origen.tipoAnimal;
